@@ -13,6 +13,11 @@ PrincipleOfDataScienceAssignments/
 │  ├─ Assignment 1.docx
 │  ├─ README.md
 │  └─ requirements.txt
+├─ Assignment_2/
+│  ├─ Question1/
+│  ├─ Question2/
+│  ├─ Assignment 2_3_combined.docx
+│  └─ README.md
 ├─ .venv/                  # local Python virtual environment (not committed)
 └─ Readme.md               # (this file) repo-level overview
 ```
@@ -31,11 +36,13 @@ source .venv/bin/activate        # macOS/Linux
 
 ### 2) Install dependencies
 
-If you are working on a specific assignment, install that assignment’s requirements:
+If you are working on a specific assignment, install that assignment’s requirements when available, or follow its assignment-specific README:
 
 ```bash
 pip install -r Assignment_1/requirements.txt
 ```
+
+For Assignment 2, see `Assignment_2/README.md` for the notebook dependencies used in that folder.
 
 ### 3) Run notebooks / scripts
 
@@ -54,6 +61,13 @@ jupyter lab
 - **Question 2**: Visualizations + short written interpretations.
 
 See `Assignment_1/README.md` for assignment-specific instructions, assumptions, and outputs.
+
+### Assignment 2
+
+- **Question 1**: Used cars workflow with cleaned outputs, report figures, and source notebook.
+- **Question 2**: Sampling and bootstrap workflow with saved summaries, report figures, and source notebook.
+
+See `Assignment_2/README.md` for assignment-specific structure, assumptions, outputs, and notebook paths.
 
 ## Outputs
 
